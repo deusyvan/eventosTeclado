@@ -4,3 +4,6 @@ function apertouTecla(event) {
 function soltouTecla(event) {
 	console.log("Soltou a tecla: " + event.keyCode);
 }
+function pressionadoTecla(event) {
+	console.log("Pressionando a tecla: " + event.keyCode);
+}
