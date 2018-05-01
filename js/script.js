@@ -8,6 +8,6 @@ function pressionadoTecla(event) {
 	console.log("Pressionando a tecla: " + event.keyCode);
 }
 function soltouTeclaShift(event) {
-	if(event.ctrlKey == true)
+	if(event.altKey == true)
 	console.log("Apertou alguma tecla com ctrl");
 }
