@@ -7,3 +7,6 @@ function soltouTecla(event) {
 function pressionadoTecla(event) {
 	console.log("Pressionando a tecla: " + event.keyCode);
 }
+function soltouTeclaShift(event) {
+	console.log("Soltou a tecla: " + event.shiftKey);
+}
